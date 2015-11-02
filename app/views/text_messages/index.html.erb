@@ -1,0 +1,15 @@
+<h1>Welcome to Twilio Clone</h1>
+
+<article class="text_messages">
+  <% if @text_messages.any? %>
+  <% @text_messages.each do |text| %>
+  <div class="text-preview">
+    <%= text_message.body %><%= text_message.to %> <%= text_message.from %> <%= text_message.status %>
+  </div>
+  <% end %>
+  <% else %>
+  <p>There are currently no texts. Add some below.</p>
+  <% end %>
+</article>
+
+<%= link_to "New Text Message", new_text_message_path, remote: true, id: "new_text_link"%>
