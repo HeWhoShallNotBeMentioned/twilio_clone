@@ -11,6 +11,8 @@ gem 'bcrypt'
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'responders'
+gem 'twilio-ruby'
+gem 'rest-client'
 
 group :development do
   gem 'byebug'
@@ -24,6 +26,7 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'launchy'
   gem 'pry'
+  gem 'dotenv-rails'
 end
 
 group :test do

@@ -1,2 +1,3 @@
 $("form").remove();
 $("#new_text_link").show();
+$(".text_messages").append("<%= @text_message.body %><%= @text_message.to %> <%= @text_message.from %> <%= @text_message.status %>")

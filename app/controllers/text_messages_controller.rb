@@ -15,6 +15,14 @@ class TextMessagesController < ApplicationController
   def create
     @text_message = TextMessage.new(text_message_params)
 
+    # @client = Twilio::REST::Client.new 'AC019d639b2379830d30d2ed5338e20d13', '31b200194a4ba36aa95c02d19d3b0e99'
+    #
+    # @client.account.messages.create({
+    #   :from => text_message_params['from'],
+    #   :to => text_message_params['to'],
+    #   :body => text_message_params['body'],
+    #   })
+
     if @text_message.save
       flash[:notice] = "Text Message saved and sent."
       respond_to do |format|

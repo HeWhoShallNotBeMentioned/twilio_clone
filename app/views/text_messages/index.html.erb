@@ -4,7 +4,7 @@
   <% if @text_messages.any? %>
   <% @text_messages.each do |text| %>
   <div class="text-preview">
-    <%= text_message.body %><%= text_message.to %> <%= text_message.from %> <%= text_message.status %>
+    <%= text.body %><%= text.to %> <%= text.from %> <%= text.status %>
   </div>
   <% end %>
   <% else %>
