@@ -42,4 +42,5 @@ class TextMessage < ActiveRecord::Base
         false
       end
     end
+  end
 end

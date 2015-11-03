@@ -13,10 +13,6 @@ class TextMessagesController < ApplicationController
   end
 
   def create
-    @text_message = TextMessage.new(text_message_params)
-    if @text_message['to'].scan(/,/)
-      @text_message['to'] = @text_message['to'].split(',')
-    end  
 
     if @text_message.save
       flash[:notice] = "Text Message saved and sent."
