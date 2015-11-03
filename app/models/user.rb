@@ -5,4 +5,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :text_messages
+  has_one :phone_book
+  has_many :phone_numbers, through: :phone_book
 end

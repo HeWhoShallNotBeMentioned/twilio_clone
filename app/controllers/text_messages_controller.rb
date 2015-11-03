@@ -13,7 +13,7 @@ class TextMessagesController < ApplicationController
   end
 
   def create
-
+    @text_message = TextMessage.new(text_message_params)
     if @text_message.save
       flash[:notice] = "Text Message saved and sent."
       respond_to do |format|

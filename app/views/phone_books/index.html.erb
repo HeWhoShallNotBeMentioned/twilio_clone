@@ -1,0 +1,13 @@
+<h2>Phone books for: <%= @user.email %></h2>
+
+<div id="phone-numbers">
+  <% if @user.phone_book %>
+    <ul>
+    <% @user.phone_book.phone_numbers.each do |phone_number| %>
+      <li><%= phone_number.number %></li>
+    <% end %>
+    </ul>
+  <% end %>
+</div>
+
+<%= link_to "Add a Phone Number", new_phone_number_path %>
