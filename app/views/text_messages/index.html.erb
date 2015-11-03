@@ -12,4 +12,4 @@
   <% end %>
 </article>
 
-<%= link_to "New Text Message", new_text_message_path, remote: true, id: "new_text_link"%>
+<%= link_to "New Text Message", new_text_message_path, remote: true, id: "new_text_link" if current_user%>

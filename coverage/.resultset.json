@@ -1,25 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/spec/features/texting_feature_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/spec/rails_helper.rb": [
-        1,
+      "/Users/Guest/Desktop/twilio_clone/spec/features/phone_book_feature_spec.rb": [
         1,
         null,
         1,
@@ -28,30 +10,10 @@
         1,
         1,
         1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
         1,
         1,
         1,
-        null,
         1,
-        1,
-        null,
-        null,
-        1,
-        7,
-        7,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
         1,
         1,
         1,
@@ -59,14 +21,55 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/environment.rb": [
+      "/Users/Guest/Desktop/twilio_clone/spec/rails_helper.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        13,
+        13,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/application.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/application.rb": [
         1,
         null,
         1,
@@ -103,12 +106,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/boot.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/environments/test.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/environments/test.rb": [
         1,
         null,
         null,
@@ -152,7 +155,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/initializers/assets.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -165,7 +168,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/initializers/backtrace_silencers.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -174,12 +177,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/initializers/cookies_serializer.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/initializers/devise.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -443,13 +446,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/initializers/filter_parameter_logging.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/initializers/inflections.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -467,18 +470,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/initializers/mime_types.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/initializers/session_store.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/initializers/wrap_parameters.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -494,60 +497,103 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/config/routes.rb": [
+      "/Users/Guest/Desktop/twilio_clone/config/routes.rb": [
         1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
         1,
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/app/models/user.rb": [
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/app/controllers/application_controller.rb": [
+      "/Users/Guest/Desktop/twilio_clone/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/app/helpers/application_helper.rb": [
+      "/Users/Guest/Desktop/twilio_clone/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/app/controllers/text_messages_controller.rb": [
+      "/Users/Guest/Desktop/twilio_clone/app/controllers/phone_books_controller.rb": [
+        1,
+        1,
+        2,
+        2,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/app/controllers/phone_numbers_controller.rb": [
         1,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/app/controllers/text_messages_controller.rb": [
+        1,
+        null,
+        1,
+        5,
+        null,
+        null,
+        1,
+        1,
+        1,
         1,
         2,
         null,
         null,
-        1,
-        1,
-        1,
-        1,
-        2,
-        null,
-        null,
         null,
         1,
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1,
         1,
         1,
@@ -570,13 +616,27 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/app/models/text_message.rb": [
+      "/Users/Guest/Desktop/twilio_clone/app/models/phone_book.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/app/models/phone_number.rb": [
         1,
         1,
         1,
         null,
         1,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/app/models/text_message.rb": [
         1,
+        1,
+        1,
+        null,
+        1,
+        null,
         1,
         null,
         1,
@@ -584,51 +644,100 @@
         1,
         2,
         2,
-        null,
         2,
         null,
         null,
         null,
         null,
         null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/spec/factories.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/spec/features/texting_feature_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/spec/factories.rb": [
+      "/Users/Guest/Desktop/twilio_clone/spec/models/phone_book_spec.rb": [
         1,
+        null,
         1,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/spec/models/phone_number_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/Desktop/twilio_clone/spec/models/text_pages_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/spec/models/text_pages_spec.rb": [
+      "/Users/Guest/Desktop/twilio_clone/spec/models/user_spec.rb": [
         1,
         null,
         1,
         2,
         2,
-        2,
-        2,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/twilio_mock/twilio_clone/spec/models/user_spec.rb": [
-        1,
-        null,
-        1,
-        2,
-        null,
         null
       ]
     },
-    "timestamp": 1446508956
+    "timestamp": 1446592633
   }
 }

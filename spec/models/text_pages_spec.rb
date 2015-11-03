@@ -3,7 +3,6 @@ require 'rails_helper'
 describe TextMessage do
   it { should belong_to :user }
   it { should validate_presence_of :to }
-  it { should validate_presence_of :from }
   it { should validate_presence_of :body }
 
   it "doesn't save the message if twilio gives an error" do

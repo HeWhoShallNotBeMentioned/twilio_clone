@@ -1,5 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe PhoneNumber, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should belong_to :phone_book }
+  it { should allow_value('+12223334444').for(:number)}
+  it { should_not allow_value('12223334444').for(:number)}
 end
