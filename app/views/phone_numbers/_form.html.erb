@@ -1,3 +1,12 @@
+<% if @phone_number.errors.any? %> 
+  <% @phone_number.errors.each do |attribute, message| %>
+    <%= message %>
+  <% end %>
+<% end %>
+
+
+
+
 <%= form_for(@phone_number) do |f| %>
   <div class="field">
     <%= f.label :number %><br>

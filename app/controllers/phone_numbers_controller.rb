@@ -1,5 +1,5 @@
 class PhoneNumbersController < ApplicationController
-
+  
   def new
     @user = current_user
     @phone_book = @user.phone_book
